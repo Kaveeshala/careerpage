@@ -103,7 +103,7 @@ export default function CareersPage() {
                 <Link href={`/pages/careers/${career.id}`} className="text-[32px] font-semibold">
                   {career.title}
                 </Link>
-                <div className="flex flex-cols gap-2 items-center">
+                <div className="flex flex-cols gap-2 items-center cursor-pointer">
                   <p className="font-bold text-[29px]">Apply</p>
                   <ArrowUpRight className="text-black w-[29px] h-[29px]" />
                 </div>

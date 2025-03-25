@@ -18,7 +18,7 @@ export default function CareerDetailPage() {
         <div className="flex justify-between items-center text-end">
         <h1 className="text-[52px] font-semibold">{career.title}</h1>
 
-        <div className="flex flex-cols gap-2 items-center">
+        <div className="flex flex-cols gap-2 items-center cursor-pointer">
         <p className="font-bold text-[29px]">Apply</p>
         <ArrowUpRight className="text-black w-[29px] h-[29px]" />
         </div>
