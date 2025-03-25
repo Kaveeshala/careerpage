@@ -32,12 +32,12 @@ export default function CareerDetailPage() {
       <div className="flex gap-4 mt-6">
           <span className="flex items-center gap-2 border border-black rounded-full px-4 py-1 text-[16px] bg-black text-white">
           <Clock5 className="w-4 h-4"/>
-          {career.jobType}
+          {career.location}
           </span>
 
           <span className="flex items-center gap-2 border border-black rounded-full px-4 py-1 text-[16px] bg-black text-white">
           <MapPin className="w-4 h-4" />
-          {career.location}
+          {career.jobType}
           </span>
       </div>
 

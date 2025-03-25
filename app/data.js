@@ -126,7 +126,7 @@ const careerDetails = {
         description: "We are looking for a Backend Developer to build scalable and efficient server-side applications. You will develop APIs, manage databases, and optimize backend performance.",
         salary: "LKR 100,000 - LKR 230,000",
         jobType: "Full-Time",
-    location: "Physical",
+        location: "Physical",
         responsibilities: [
             "Develop and maintain backend services and APIs.",
             "Optimize application performance and security.",
@@ -167,6 +167,7 @@ const careerDetails = {
         description: "We are looking for a creative and user-focused UI/UX Designer to join our team. You will design user-friendly interfaces and enhance user experience through research and innovation.",
         salary: "LKR 80,000 - LKR 180,000",
         jobType: "Part-Time",
+        location: "Remote",
         responsibilities: [
             "Conduct user research and analyze feedback to improve designs.",
             "Create wireframes, prototypes, and high-fidelity designs.",
