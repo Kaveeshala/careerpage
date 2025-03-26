@@ -3,6 +3,8 @@ import { useParams } from "next/navigation";
 import careerDetails from "../../../data";
 import { Separator }  from "@/components/ui/separator";
 import { ArrowUpRight, MapPin, Clock5 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
 
 export default function CareerDetailPage() {
     const { careerId } = useParams();
@@ -74,10 +76,14 @@ export default function CareerDetailPage() {
       </ul>
 
       <Separator className="mt-8"/>
-      <div className="flex flex-col w-full max-w-[700px] text-left leading-tight mb-10">
+      <div className="flex flex-cols items-center justify-between">
+      <div className="flex w-full max-w-[700px] text-left leading-tight mb-10">
       <p className="text-[24px] mt-8">Click "Apply Now" to join our team <br/> 
       and shape amazing user experiences!</p>
       </div>
+      <Button className="rounded-full px-6 cursor-pointer">Apply Now</Button>
+      </div>
+      
 
     </div>
   )
