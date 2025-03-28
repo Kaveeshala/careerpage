@@ -1,6 +1,5 @@
 "use client"
 import { useLangState } from "../context/LangState";
-import { useState } from "react";
 import {
     DropdownMenu,
     DropdownMenuContent,

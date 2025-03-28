@@ -1,5 +1,15 @@
 
 const careerDetails = {
+    sectionTitles: {
+        salary: "Salary",
+        responsibilities: "Responsibilities",
+        requirements: "Requirements & Qualifications",
+        essentialSkills: "Essential Skills & Experience",
+        preferredQualifications: "Preferred Qualifications",
+        companyCulture: "Company Culture & Benefits",
+        perksBenefits: "Perks & Benefits"
+    },
+
     designer: {
         title: "Product Designer",
         description: "We are looking for a creative and user-focused Product Designer to join our team. You will be responsible for designing intuitive and visually appealing user experiences that align with our brand and product vision. From wireframes to high-fidelity designs, you will play a key role in shaping our digital products.",
@@ -39,12 +49,11 @@ const careerDetails = {
                 "Health & wellness benefits",
                 "Fun team events & a creative work environment"
             ]
-        }
-
+        },
        
     },
     translations: {
-        japaneese: {
+        japanese: {
             title: "プロダクトデザイナー",
             description: "当社では、クリエイティブでユーザー重視のプロダクト デザイナーを募集しています。当社のブランドと製品ビジョンに沿った、直感的で視覚的に魅力的なユーザー エクスペリエンスを設計する役割を担っていただきます。ワイヤーフレームから高忠実度デザインまで、当社のデジタル製品を形成する上で重要な役割を果たしていただきます。",
             salary: "LKR 15,000 - LKR 45,000",
@@ -83,8 +92,16 @@ const careerDetails = {
                     "健康とウェルネスのメリット",
                     "健康とウェルネスのメリット"
                 ]
-            }
-    
+            },
+            sectionTitles: {
+                salary: "給料",
+                responsibilities: "責任",
+                requirements: "要件と資格",
+                essentialSkills: "必須スキルと経験",
+                preferredQualifications: "望ましい資格",
+                companyCulture: "企業文化と福利厚生",
+                perksBenefits: "特典と特典"
+            },
            
         },
         russian: {
@@ -126,6 +143,15 @@ const careerDetails = {
                     "Польза для здоровья и благополучия",
                     "Веселые командные мероприятия и творческая рабочая среда"
                 ]
+            },
+            sectionTitles: {
+                salary: "Зарплата",
+                responsibilities: "Обязанности",
+                requirements: "Требования и квалификация",
+                essentialSkills: "Основные навыки и опыт",
+                preferredQualifications: "Предпочтительные квалификации",
+                companyCulture: "Корпоративная культура и льготы",
+                perksBenefits: "Привилегии и льготы"
             }
     
            
@@ -171,7 +197,7 @@ const careerDetails = {
             ]
         }
     },
-    japaneese: {
+    japanese: {
         title: "ソフトウェア開発者",
         description: "当社は、高品質のアプリケーションを構築および保守できる熟練したソフトウェア開発者を求めています。エンジニア チームと連携して、ビジネスとユーザーのニーズを満たすソフトウェア ソリューションを設計、開発、展開します。",
         salary: "LKR 100,000 - LKR 250,000",
@@ -249,6 +275,7 @@ const careerDetails = {
             ]
         }
     },
+    
    
 };
 
