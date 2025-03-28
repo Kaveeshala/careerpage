@@ -43,6 +43,95 @@ const careerDetails = {
 
        
     },
+    translations: {
+        japaneese: {
+            title: "プロダクトデザイナー",
+            description: "当社では、クリエイティブでユーザー重視のプロダクト デザイナーを募集しています。当社のブランドと製品ビジョンに沿った、直感的で視覚的に魅力的なユーザー エクスペリエンスを設計する役割を担っていただきます。ワイヤーフレームから高忠実度デザインまで、当社のデジタル製品を形成する上で重要な役割を果たしていただきます。",
+            salary: "LKR 15,000 - LKR 45,000",
+            jobType: "フルタイム",
+            location: "リモート",
+            responsibilities:[
+                "部門横断的なチームと連携して、ユーザーのニーズとビジネス目標を理解します。",
+                "およびモバイル アプリケーション用のワイヤーフレーム、プロトタイプ、高忠実度デザインを作成します。",
+                "Conduct user research, usability testing, and iterate designs based on feedback.",
+                "ユーザー調査、ユーザビリティテストを実施し、フィードバックに基づいてデザインを繰り返します。",
+                "開発者と緊密に連携して、設計がスムーズに実装されるようにします。",
+                "デザインのトレンドと業界のベストプラクティスを常に最新の状態に保ちます。"
+            ],
+            requirements: {
+                essentialSkills: [
+                    "UI/UX または製品デザインの経験が 2 年以上。",
+                    "Figma、Sketch、Adobe XD などのデザイン ツールに精通していること。",
+                    "デザインの原則、タイポグラフィ、色彩理論に関する深い理解。",
+                    "レスポンシブでアクセシブルなデザインを作成した経験。",
+                    "開発者と効果的に共同作業を行うためのフロントエンド テクノロジー (HTML、CSS) に関する基本的な知識。"
+                ],
+    
+                preferredQualifications: [
+                    "競争力のある給与と業績ボーナス",
+                    "柔軟な勤務時間とリモートワークに適した文化",
+                    "学習プログラムとキャリア成長の機会へのアクセス",
+                    "健康とウェルネスのメリット",
+                    "楽しいチームイベントとクリエイティブな職場環境"
+                ]
+            },
+            culture: {
+                perksandBenefits: [
+                    "競争力のある給与と業績ボーナス",
+                    "柔軟な勤務時間とリモートワークに適した文化",
+                    "学習プログラムとキャリア成長の機会へのアクセス",
+                    "健康とウェルネスのメリット",
+                    "健康とウェルネスのメリット"
+                ]
+            }
+    
+           
+        },
+        russian: {
+            title: "Дизайнер продукта",
+            description: "Мы ищем креативного и ориентированного на пользователя дизайнера продукта для присоединения к нашей команде. Вы будете отвечать за разработку интуитивно понятного и визуально привлекательного пользовательского опыта, соответствующего нашему бренду и видению продукта. От каркасов до высокоточных дизайнов вы будете играть ключевую роль в формировании наших цифровых продуктов.",
+            salary: "LKR 15,000 - LKR 45,000",
+            jobType: "на постоянной основе",
+            location: "Удаленный",
+            responsibilities:[
+                "Сотрудничайте с кросс-функциональными командами, чтобы понимать потребности пользователей и бизнес-цели.",
+                "Создавайте каркасы, прототипы и высококачественные проекты для веб- и мобильных приложений.",
+                "Проводите исследования пользователей, тестирование удобства использования и дорабатывайте проекты на основе отзывов.",
+                "Разрабатывайте и поддерживайте системы проектирования для обеспечения единообразия во всех продуктах.",
+                "Тесное сотрудничество с разработчиками для обеспечения бесперебойной реализации проектов.",
+                "Будьте в курсе тенденций дизайна и лучших практик отрасли."
+            ],
+            requirements: {
+                essentialSkills: [
+                    "Более 2 лет опыта в UI/UX или продуктовом дизайне.",
+                    "Умение работать с такими инструментами дизайна, как Figma, Sketch или Adobe XD.",
+                    "Strong understanding of design principles, typography, and color theory.",
+                    "Глубокое понимание принципов дизайна, типографики и теории цвета.",
+                    "Глубокое понимание принципов дизайна, типографики и теории цвета."
+                ],
+    
+                preferredQualifications: [
+                    "Конкурентоспособная заработная плата и бонусы за производительность",
+                    "Гибкий рабочий график и культура, благоприятная для удаленной работы",
+                    "доступ к программам обучения и возможностям карьерного роста",
+                    "Польза для здоровья и благополучия",
+                    "Веселые командные мероприятия и творческая рабочая среда"
+                ]
+            },
+            culture: {
+                perksandBenefits: [
+                    "Конкурентоспособная заработная плата и бонусы за производительность",
+                    "Гибкий рабочий график и культура, благоприятная для удаленной работы",
+                    "Доступ к программам обучения и возможностям карьерного роста",
+                    "Польза для здоровья и благополучия",
+                    "Веселые командные мероприятия и творческая рабочая среда"
+                ]
+            }
+    
+           
+        },
+    },
+    
     softwareDeveloper: {
         title: "Software Developer",
         description: "We are seeking a skilled Software Developer to build and maintain high-quality applications. You will work with a team of engineers to design, develop, and deploy software solutions that meet business and user needs.",
@@ -82,126 +171,85 @@ const careerDetails = {
             ]
         }
     },
-    frontendDeveloper: {
-        title: "Frontend Developer",
-        description: "We are looking for a Frontend Developer to create engaging user interfaces. You will work closely with designers and backend developers to build responsive and interactive web applications.",
-        salary: "LKR 90,000 - LKR 200,000",
-        jobType: "Remote",
-        location: "Full-Time",
+    japaneese: {
+        title: "ソフトウェア開発者",
+        description: "当社は、高品質のアプリケーションを構築および保守できる熟練したソフトウェア開発者を求めています。エンジニア チームと連携して、ビジネスとユーザーのニーズを満たすソフトウェア ソリューションを設計、開発、展開します。",
+        salary: "LKR 100,000 - LKR 250,000",
+        jobType: "フルタイム",
+        location: "リモート",
         responsibilities : [
-            "Develop and optimize user-facing features.",
-            "Ensure high-quality UI/UX implementation.",
-            "Write clean, maintainable, and scalable frontend code.",
-            "Work with designers to translate wireframes into code.",
-            "Optimize applications for maximum performance."
+            "ソフトウェア アプリケーションを開発、テスト、保守します。",
+            "部門横断的なチームと連携してプロジェクト要件を定義します。",
+            "クリーンで効率的、かつスケーラブルなコードを記述します。",
+            "ソフトウェアの問題をデバッグおよびトラブルシューティングします。",
+            "業界の最新動向とテクノロジーを常に把握しましょう。"
         ],
         requirements: {
-            essentialSkills:[
-                "Proficiency in JavaScript, HTML, and CSS.",
-                "Experience with frontend frameworks such as React, Vue, or Angular.",
-                "Understanding of responsive and mobile-first design.",
-                "Familiarity with state management libraries (Redux, Vuex).",
-                "Ability to integrate APIs and work with backend teams."
+            essentialSkills: [
+                "コンピュータサイエンスまたは関連分野の学士号。",
+                "Java、Python、C# などのプログラミング言語に精通していること。",
+                "データベース (SQL、NoSQL) の経験。",
+                "バージョン管理システム (Git、GitHub) に関する知識。",
+                 "強力な問題解決能力。"
             ],
-            preferredQualifications: [
-                "Experience with TypeScript.",
-                "Knowledge of accessibility standards (WCAG).",
-                "Understanding of CSS preprocessors (SASS, LESS).",
-                "Experience with Webpack and modern build tools.",
-                "Strong debugging and optimization skills."
+            preferredQualifications : [
+                "クラウド サービス (AWS、Azure、GCP) の経験。",
+                "CI/CD パイプラインに関する知識。",
+                "マイクロサービス アーキテクチャに関する知識。",
+                "アジャイル方法論の理解。",
+                "優れたコミュニケーション能力とチームワーク能力。"
             ]
         },
         culture: {
             perksandBenefits: [
-                "Flexible working hours & remote work options",
-                "Career growth & skill development programs",
-                "Health insurance & wellness programs",
-                "Creative and collaborative work environment",
-                "Company-sponsored team-building events"
+                "競争力のある給与と業績ボーナス",
+                "柔軟な勤務時間とリモートワークに適した文化",
+                "学習プログラムとキャリア成長の機会へのアクセス",
+                "健康とウェルネスのメリット",
+                "楽しいチームイベントと協力的な職場環境"
             ]
         }
     },
-    backendDeveloper: {
-        title: "Backend Developer",
-        description: "We are looking for a Backend Developer to build scalable and efficient server-side applications. You will develop APIs, manage databases, and optimize backend performance.",
-        salary: "LKR 100,000 - LKR 230,000",
-        jobType: "Full-Time",
-        location: "Physical",
-        responsibilities: [
-            "Develop and maintain backend services and APIs.",
-            "Optimize application performance and security.",
-            "Design scalable database structures.",
-            "Collaborate with frontend developers to integrate APIs.",
-            "Monitor and troubleshoot system issues."
+    russian: {
+        title: "Разработчик программного обеспечения",
+        description: "Мы ищем опытного разработчика ПО для создания и поддержки высококачественных приложений. Вы будете работать с командой инженеров для проектирования, разработки и развертывания программных решений, которые отвечают потребностям бизнеса и пользователей.",
+        salary: "LKR 100,000 - LKR 250,000",
+        jobType: "На постоянной основе",
+        location: "Удаленный",
+        responsibilities : [
+            "Разработка, тестирование и поддержка программных приложений..",
+            "Сотрудничайте с кросс-функциональными командами для определения требований проекта.",
+            "Пишите чистый, эффективный и масштабируемый код.",
+            "Отладка и устранение неполадок программного обеспечения.",
+            "Будьте в курсе последних тенденций и технологий отрасли."
         ],
         requirements: {
             essentialSkills: [
-               "Proficiency in backend languages such as Node.js, Java, Python, or Ruby.",
-                "Experience with databases (MongoDB, PostgreSQL, MySQL).",
-                "Understanding of RESTful API design and GraphQL.",
-                "Knowledge of authentication and authorization (OAuth, JWT).",
-                "Experience with server management and cloud platforms." 
+                "Степень бакалавра в области компьютерных наук или смежной области.",
+                "Знание языков программирования, таких как Java, Python или C#.",
+                "Опыт работы с базами данных (SQL, NoSQL).",
+                "Знание систем контроля версий (Git, GitHub).",
+                 "Отличные навыки решения проблем."
             ],
-            preferredQualifications: [
-                "Experience with microservices and containerization (Docker, Kubernetes).",
-                "Knowledge of DevOps practices and CI/CD pipelines.",
-                "Familiarity with serverless computing.",
-                "Strong understanding of data structures and algorithms.",
-                "Ability to optimize system performance and scalability."
-            ]
-        },
-        culture: {
-            perksandBenefits:[
-                "Competitive salary & bonuses",
-                "Flexible work arrangements",
-                "Opportunities for training and career development",
-                "Team outings and networking events",
-                "Comprehensive health benefits"
-            ]
-
-        }
-    },
-
-    uiuxDesigner: {
-        title: "UI/UX Designer",
-        description: "We are looking for a creative and user-focused UI/UX Designer to join our team. You will design user-friendly interfaces and enhance user experience through research and innovation.",
-        salary: "LKR 80,000 - LKR 180,000",
-        jobType: "Part-Time",
-        location: "Remote",
-        responsibilities: [
-            "Conduct user research and analyze feedback to improve designs.",
-            "Create wireframes, prototypes, and high-fidelity designs.",
-            "Work closely with developers to ensure seamless UI implementation.",
-            "Develop and maintain design systems for consistency.",
-            "Stay up-to-date with design trends and best practices."
-        ],
-        requirements: {
-            essentialSkills: [
-                "Proficiency in design tools like Figma, Sketch, or Adobe XD.",
-                "Understanding of UX principles and user-centered design.",
-                "Experience with prototyping and usability testing.",
-                "Basic knowledge of HTML and CSS for collaboration with developers.",
-                "Strong visual design skills including typography and color theory."
-            ],
-            preferredQualifications: [
-                "Experience in motion design and micro-interactions.",
-                "Familiarity with accessibility and usability standards.",
-                "Knowledge of branding and visual storytelling.",
-                "Ability to work in Agile or Scrum environments.",
-                "Strong communication and presentation skills."
+            preferredQualifications : [
+                "Опыт работы с облачными сервисами (AWS, Azure, GCP).",
+                "Знакомство с конвейерами CI/CD.",
+                "Знание архитектуры микросервисов.",
+                "Понимание гибких методологий.",
+                "Хорошие коммуникативные навыки и навыки командной работы."
             ]
         },
         culture: {
             perksandBenefits: [
-                "Flexible work schedules & remote work options",
-                "Creative and collaborative work environment",
-                "Opportunities for upskilling and certifications",
-                "Health and wellness programs",
-                "Team retreats and networking events"
+                "Конкурентоспособная заработная плата и бонусы за производительность",
+                "Гибкий рабочий график и культура, благоприятная для удаленной работы",
+                "Доступ к программам обучения и возможностям карьерного роста",
+                "Польза для здоровья и благополучия",
+                "Веселые командные мероприятия и совместная рабочая среда"
             ]
         }
-    }
-
+    },
+   
 };
 
 export default careerDetails;

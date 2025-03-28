@@ -7,9 +7,7 @@ import CareerCard from "./CareerCard";
 const careers = [
   { id: "designer", title: "Product Designer" },
   { id: "softwareDeveloper", title: "Software Developer" },
-  { id: "frontendDeveloper", title: "Frontend Developer" },
-  { id: "backendDeveloper", title: "Backend Developer" },
-  { id: "uiuxDesigner", title: "UI/UX Designer" },
+ 
 ];
 
 const categoryMapping = {
@@ -24,10 +22,7 @@ const categoryMapping = {
 };
 
 const jobInfo = {
-  frontendDeveloper: { shortDescription: "We are looking for a Frontend Developer.", jobType: "Remote", location: "Full-Time" },
   softwareDeveloper: { shortDescription: "We are looking for a Software Developer.", jobType: "Full-Time", location: "Remote" },
-  backendDeveloper: { shortDescription: "Join us as a Backend Developer.", jobType: "Full-Time", location: "Physical" },
-  uiuxDesigner: { shortDescription: "Seeking a UI/UX Designer.", jobType: "Part-Time", location: "Remote" },
   designer: { shortDescription: "We’re looking for a Product Designer.", jobType: "Full-Time", location: "Remote" },
 };
 
