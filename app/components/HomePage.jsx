@@ -3,12 +3,28 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import CareerCard from "./CareerCard";
+import { useLangState } from "../context/LangState";
 
 const careers = [
-  { id: "designer", title: "Product Designer" },
-  { id: "softwareDeveloper", title: "Software Developer" },
- 
+  { 
+    id: "designer", 
+    title: {
+      English: "Product Designer",
+      Russian: "Продуктовый дизайнер",
+      Japanese: "プロダクトデザイナー",
+    }
+  }, 
+  
+  { 
+    id: "softwareDeveloper",
+    title: {
+      English: "Software Developer",
+      Russian: "Разработчик программного обеспечения",
+      Japanese: "ソフトウェア開発者",
+    }
+  } 
 ];
+
 
 const categoryMapping = {
   "View all": ["frontendDeveloper", "backendDeveloper", "uiuxDesigner", "designer", "softwareDeveloper"],
@@ -22,12 +38,45 @@ const categoryMapping = {
 };
 
 const jobInfo = {
-  softwareDeveloper: { shortDescription: "We are looking for a Software Developer.", jobType: "Full-Time", location: "Remote" },
-  designer: { shortDescription: "We’re looking for a Product Designer.", jobType: "Full-Time", location: "Remote" },
+  softwareDeveloper: {
+    shortDescription: {
+      English: "We are looking for a Software Developer.",
+      Russian: "Мы ищем разработчика программного обеспечения.",
+      Japanese: "ソフトウェア開発者を募集しています。",
+    },
+    jobType: {
+      English: "Full-Time",
+      Russian: "Полный рабочий день",
+      Japanese: "フルタイム",
+    },
+    location: {
+      English: "Remote",
+      Russian: "Удаленно",
+      Japanese: "リモート",
+    },
+  },
+  designer: {
+    shortDescription: {
+      English: "We’re looking for a Product Designer.",
+      Russian: "Мы ищем продуктового дизайнера.",
+      Japanese: "プロダクトデザイナーを募集しています。",
+    },
+    jobType: {
+      English: "Full-Time",
+      Russian: "Полный рабочий день",
+      Japanese: "フルタイム",
+    },
+    location: {
+      English: "Remote",
+      Russian: "Удаленно",
+      Japanese: "リモート",
+    },
+  },
 };
 
 
 export default function HomePage() {
+  const { LangState } = useLangState();
     const [selectedCategory, setSelectedCategory] = useState("View all");
 
     const categories = Object.keys(categoryMapping);
@@ -67,7 +116,17 @@ export default function HomePage() {
         {filteredCareers.map((career) => {
           const { shortDescription, jobType, location } = jobInfo[career.id] || {};
           
-          return <CareerCard key={career.id} id={career.id} title={career.title} shortDescription={shortDescription} jobType={jobType} location={location} />;
+          return (
+            <CareerCard 
+              key={career.id} 
+              id={career.id} 
+              title={career.title?.[LangState] || career.title?.English} 
+              shortDescription={shortDescription?.[LangState] || shortDescription?.English} 
+              jobType={jobType?.[LangState] || jobType?.English} 
+              location={location?.[LangState] || location?.English} 
+              />
+          )
+           
         })}
       </div>
       <Separator className="mt-8 mb-16" />
